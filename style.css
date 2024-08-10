@@ -951,7 +951,9 @@ body.dark .work-links img {
   justify-content: center;
   gap: var(--gutter-x-large);
   padding-block-start: var(--gutter-x-large);
+  
 }
+
 
 .skills-img {
   block-size: 135px;
