@@ -483,6 +483,7 @@ main {
 body.dark .header {
   background-image: linear-gradient(#0000008b, #000000e6),
     url("assets/images/hero-bg.webp");
+  position: relative; /* Add this line */
 }
 
 body.light .header {
@@ -766,7 +767,7 @@ body.dark .work-links img {
 
 .article-box {
   flex-basis: 31%;
-  border: 1px solid var(--border);
+  border: 5px solid var(--border);
   padding: var(--gutter-medium) var(--gutter-small);
   border-radius: var(--gutter-nano);
   background-color: var(--bg-color-secondary);
@@ -790,10 +791,9 @@ body.dark .work-links img {
 }
 
 .reaction-count {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--gutter-nano);
-  font-size: initial;
+  isplay: flex;
+  justify-content: space-between;
+  margin-block-start: auto;
 }
 
 @media (max-width: 985px) {
@@ -862,7 +862,7 @@ body.dark .work-links img {
 }
 
 .featured-article .article-illustration {
-  flex-basis: 50%;
+  flex-basis: 25%;
 }
 
 .article-illustration img {
@@ -870,7 +870,7 @@ body.dark .work-links img {
 }
 
 .featured-article .article-text {
-  font-size: var(--text-medium);
+  font-size: var(--text-  medium);
 }
 
 .featured-article .article-info {
@@ -1253,3 +1253,7 @@ input:checked {
   --thumb-position: 100%;
   background-color: var(--track-active);
 }
+
+
+/* Text Animation */
+
