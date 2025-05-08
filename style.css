@@ -1259,3 +1259,29 @@ input:checked {
 
 /* Text Animation */
 
+.education-section {
+  padding: var(--gutter-x-large);
+}
+
+.education-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: var(--gutter-medium);
+}
+
+.education-item {
+  background-color: var(--bg-color-secondary);
+  border-radius: var(--gutter-nano);
+  padding: var(--gutter-medium);
+}
+
+.education-item h3 {
+  margin-bottom: var(--gutter-small);
+}
+
+.education-item p {
+  margin: 0.5rem 0;
+}
+html {
+  scroll-behavior: smooth;
+}
